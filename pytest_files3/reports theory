@@ -1,0 +1,27 @@
+reports:-
+to get the information such as
+---> how many test cases failed
+---> how many test cases passed
+--->how much time it took to execute one test case
+etc......
+
+
+
+
+to generate reports:-
+install a plugin--->pytest-html
+
+
+
+steps to install:-
+got o python packages---> type pytest-html----> click on install
+
+
+
+
+
+command to generate reports:-
+pytest test_filename.py -vs --html='filename.html'
+
+
+
